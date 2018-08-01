@@ -90,28 +90,6 @@
         </div>
     </div>
 
-    <!--登录-->
-    <div class="loginBox">
-        <span class="close">x</span>
-        <h2 class="f18">登录</h2>
-        <div class="loginCon">
-            <p><label>用户名：</label><input type="text"></p>
-            <p><label>密码：</label><input type="password"></p>
-            <p><input type="button" value="登录" id="loginBtn"></p>
-        </div>
-        
-        <div class="loginNum">
-            <ul>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>6</li>
-            </ul>
-            <div class="loginTxt">位同学正在学习</div>
-        </div>
-    </div>
-
-    <div class="mask"></div>
 
     <div id="footer"></div>
 
@@ -121,15 +99,7 @@
         $(function(){
             $('.headerNav li a:contains("课程")').addClass('active');
 
-            $(".headerRight a:contains('登录')").click(function(){
-                $(".mask").show();
-                $(".loginBox").show();
-            })
-            $(".close").click(function(){
-                $(".mask").hide();
-                $(".loginBox").hide();
-            })
-
+            
             $(".conter").click(function(){
                 
             })
