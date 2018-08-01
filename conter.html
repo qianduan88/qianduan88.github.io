@@ -1,0 +1,137 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>前端攻略-专注于H5开发解决方案</title>
+</head>
+<body>
+    <?php include 'public/header.php'; ?>
+    <div class="nav">
+        <div class="navDiv">
+            <div class="navDivTitle">
+                <h4>vue企业常用技术 (24节课)</h4>
+            </div>
+        </div>
+    </div>
+    <div class="conter">
+        <div class="conter-p-img">
+            <div class="kc-title">vue企业常用技术</div>
+            <div class="kc-conter">Vue+Vue-Router+Vuex+SSR实战精讲</div>
+        </div>
+        <div class="conter-p-txt">
+            <p>课时：24节课</p>
+            <p><span class="add-icon">+</span>虚拟工资：1000</p>
+            <p>简要：</p>
+            <p>这是一门重技术讲解的课程，会把Vue的核心技术都深入细致地进行讲解，通过一个Todo应用深入讲解Vue应用开发，Vue+Webpack工作流搭建，Vue+Vue-Router+Vuex项目架构和Vue服务端渲染深度集成，以此给学员展示Vue应用开发中的各种问题和最适合的解决方案。</p>
+            <p><input type="button" class="playBtn" value="充电 (99元)"></p>
+        </div>
+        <div class="menu">
+           <ul class="menu-z">
+               <li>
+                   <h6>第一章 课程介绍</h6>
+                   <p>课程介绍，介绍课程的章节安排和学习本门课程的一些注意点。</p>
+                   <ul class="menu-j">
+                       <li>1-1 课程导学</li>
+                       <li>1-2 课程导学</li>
+                       <li>1-3 课程导学</li>
+                   </ul>
+                </li>
+                <li>
+                   <h6>第二章 课程介绍</h6>
+                   <p>课程介绍，介绍课程的章节安排和学习本门课程的一些注意点。</p>
+                   <ul class="menu-j">
+                       <li>1-1 课程导学</li>
+                       <li>1-2 课程导学</li>
+                       <li>1-3 课程导学</li>
+                       <li>1-1 课程导学</li>
+                       <li>1-2 课程导学</li>
+                       <li>1-3 课程导学</li>
+                   </ul>
+                </li>
+                <li>
+                   <h6>第二章 课程介绍</h6>
+                   <p>课程介绍，介绍课程的章节安排和学习本门课程的一些注意点。</p>
+                   <ul class="menu-j">
+                       <li>1-1 课程导学</li>
+                       <li>1-2 课程导学</li>
+                       <li>1-3 课程导学</li>
+                   </ul>
+                </li>
+                <li>
+                   <h6>第二章 课程介绍</h6>
+                   <p>课程介绍，介绍课程的章节安排和学习本门课程的一些注意点。</p>
+                   <ul class="menu-j">
+                       <li>1-1 课程导学</li>
+                       <li>1-2 课程导学</li>
+                       <li>1-3 课程导学</li>
+                   </ul>
+                </li>
+                <li>
+                   <h6>第二章 课程介绍</h6>
+                   <p>课程介绍，介绍课程的章节安排和学习本门课程的一些注意点。</p>
+                   <ul class="menu-j">
+                       <li>1-1 课程导学</li>
+                       <li>1-2 课程导学</li>
+                       <li>1-3 课程导学</li>
+                   </ul>
+                </li>
+                <li>
+                   <h6>第二章 课程介绍</h6>
+                   <p>课程介绍，介绍课程的章节安排和学习本门课程的一些注意点。</p>
+                   <ul class="menu-j">
+                       <li>1-1 课程导学</li>
+                       <li>1-2 课程导学</li>
+                       <li>1-3 课程导学</li>
+                   </ul>
+                </li>
+           </ul>
+        </div>
+    </div>
+
+    <!--登录-->
+    <div class="loginBox">
+        <span class="close">x</span>
+        <h2 class="f18">登录</h2>
+        <div class="loginCon">
+            <p><label>用户名：</label><input type="text"></p>
+            <p><label>密码：</label><input type="password"></p>
+            <p><input type="button" value="登录" id="loginBtn"></p>
+        </div>
+        
+        <div class="loginNum">
+            <ul>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>6</li>
+            </ul>
+            <div class="loginTxt">位同学正在学习</div>
+        </div>
+    </div>
+
+    <div class="mask"></div>
+
+    <?php include 'public/footer.php'; ?>
+    <script>
+        $(function(){
+            $('.headerNav li a:contains("课程")').addClass('active');
+
+            $(".headerRight a:contains('登录')").click(function(){
+                $(".mask").show();
+                $(".loginBox").show();
+            })
+            $(".close").click(function(){
+                $(".mask").hide();
+                $(".loginBox").hide();
+            })
+
+            $(".conter").click(function(){
+                
+            })
+
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<link href="css/public.css" rel="stylesheet" />
+<style>
+    .qualityCheck{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: -webkit-gradient(radial,center center,0,center center,460,from(rgba(0,0,0,0.2)) to(#000));
+        background: -webkit-radial-gradient(circle,rgba(0,0,0,0.2),#000);
+        background: -moz-radial-gradient(circle,rgba(0,0,0,0.2),#000);
+        background: -ms-radial-gradient(circle,rgba(0,0,0,0.2),#000);
+        -webkit-animation: 2s run;
+        animation: 2s run; 
+        animation-fill-mode:forwards;
+        animation-duration:2s;
+    }
+    @keyframes run{
+        0%{
+            display: none;
+            opacity: 0;
+        }
+        50%{
+            display: block;
+            opacity: 0.5;
+            z-index:999;
+        }
+        100%{
+            display: block;
+            opacity: 1;
+            z-index:999;
+        }
+    }
+    @-webkit-keyframes run{
+        0%{
+            display: none;
+            opacity: 0;
+        }
+        50%{
+            display: block;
+            opacity: 0.5;
+            z-index:999;
+        }
+        100%{
+            display: block;
+            opacity: 1;
+            z-index:999;
+        }
+    }
+</style>
+
+<!-- <div class="loading">
+    
+</div>
+<div class="qualityCheck">
+
+</div> -->
+
+<div class="header">
+    <div class="headerDiv">
+        <img src="img/logo.png" class="fl logo"/>
+        <ul class="headerNav fl">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">课程</a></li>
+            <li><a href="#">定制</a></li>
+            <li><a href="#">赚钱</a></li>
+            <li><a href="#">吹牛</a></li>
+            <li><a href="#">工作</a></li>
+            <li><a href="userCenter.php">3D互动社区</a></li>
+            <li><a href="#">关于我们</a></li>
+        </ul>
+
+        <div class="fr headerRight">
+            <a href="#">登录</a>
+            <a href="#">注册</a>
+        </div>
+
+    </div>
+</div>
