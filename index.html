@@ -48,7 +48,10 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/common.js"></script>
     <script>
-        $('.headerNav li a:contains("首页")').addClass('active');
+        window.onload = function(){
+            $('.headerNav li a:contains("首页")').addClass('active');
+        }
+        
     </script>
 </body>
 </html>
