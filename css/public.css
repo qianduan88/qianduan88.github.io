@@ -386,8 +386,12 @@ input:-webkit-autofill {
     text-align: center;
 }
 .t-title{
-    height: 50px;
+    height: 25px;
+    overflow: hidden;
     font-size: 16px;
     color: #666;
     padding: 10px 2px;
+    width: 200px;
+    text-overflow:ellipsis;
+    white-space: nowrap;
 }
